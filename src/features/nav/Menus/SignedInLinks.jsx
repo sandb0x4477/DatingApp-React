@@ -17,15 +17,9 @@ const SignedInLinks = ({ signOut, profile, auth }) => {
           <Dropdown.Item text="My Network" icon="users" /> */}
           <Dropdown.Item
             as={Link}
-            to={`/profile/${auth.uid}`}
+            to={'/profile'}
             text="My Profile"
             icon="user"
-          />
-          <Dropdown.Item
-            as={Link}
-            to="/settings"
-            text="Settings"
-            icon="settings"
           />
           <Dropdown.Item onClick={signOut} text="Sign Out" icon="power" />
         </Dropdown.Menu>

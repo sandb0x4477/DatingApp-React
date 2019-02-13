@@ -24,7 +24,9 @@ let render = () => {
   );
 };
 
-render();
+store.firebaseAuthIsReady.then(() => {
+  render();
+});
 
 if (module.hot) {
   module.hot.accept('./app/layout/App', () => {

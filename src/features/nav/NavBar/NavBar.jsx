@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withFirebase } from 'react-redux-firebase';
-import { NavLink, Link, withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import { Menu, Container, Icon } from 'semantic-ui-react';
 
 import SignOutLinks from '../Menus/SignedOutLinks';
