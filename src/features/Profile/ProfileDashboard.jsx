@@ -22,14 +22,14 @@ const mapState = (state, ownProps) => {
 
 
 class ProfileDashboard extends Component {
-  state = { activeItem: 'photos'};
+  state = { activeItem: 'bio'};
 
   handleItemClick = (e, { name }) => {
     this.setState({ activeItem: name });
   };
 
   onSubmit = formValues => {
-    console.log("formValues", formValues);
+    // console.log("formValues", formValues);
     this.props.updateProfile(formValues);
   };
 

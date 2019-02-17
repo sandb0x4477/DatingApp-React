@@ -44,6 +44,7 @@ class NavBar extends Component {
             Dating
           </Menu.Item>
 
+          <Menu.Item  as={Link} to='/matches'>Matches</Menu.Item>
           <Menu.Item>Messages</Menu.Item>
 
           {/*<Menu.Item position='right'>*/}
