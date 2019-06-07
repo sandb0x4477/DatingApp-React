@@ -2,6 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/storage';
 import 'firebase/auth';
+import 'firebase/database';
 // import 'dotenv/config';
 // import firebase from 'firebase';
 // import 'firebase/firestore';

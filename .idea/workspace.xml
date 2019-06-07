@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a1a7a48-ad04-4443-9acb-bcaa574395cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sandb0x.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/common/form/DateInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Profile/BioForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Profile/PhotosForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Profile/ProfileDashboard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Profile/ProfileSidebar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Profile/userActions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/config/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/config/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/auth/Register/RegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/auth/Register/RegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/auth/authActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/auth/authActions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/nav/Menus/SignedInLinks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/nav/Menus/SignedInLinks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Matches/MatchesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Matches/MatchesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/UserDetailed/UserDetailedPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/UserDetailed/UserDetailedPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/UserDetailed/UserSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/UserDetailed/UserSidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/nav/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/nav/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,35 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/Profile/ProfileDashboard.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/Profile/PhotosForm.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/Profile/userActions.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -110,8 +72,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="764" />
-    <option name="width" value="1163" />
+    <option name="x" value="817" />
+    <option name="width" value="1110" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -207,7 +169,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../revents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slack-clone" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="D:\React\dating-react\node_modules\eslint" />
@@ -255,6 +217,7 @@
       <workItem from="1549308978359" duration="3480000" />
       <workItem from="1549317079786" duration="661000" />
       <workItem from="1549343906624" duration="7336000" />
+      <workItem from="1550614216572" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="authorization">
       <created>1548977769878</created>
@@ -267,13 +230,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48796000" />
+    <option name="totallyTimeSpent" value="48818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="764" y="0" width="1163" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="817" y="0" width="1110" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19377778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19309701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -563,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Profile/userActions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -584,17 +539,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Profile/PhotosForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/Profile/ProfileDashboard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profile/PhotosForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Profile/userActions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

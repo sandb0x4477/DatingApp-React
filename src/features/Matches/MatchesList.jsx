@@ -44,12 +44,14 @@ class MatchesList extends Component {
                         <NavLink to={`/user/${user.id}`}>
                           <Icon link name='user' style={{ paddingRight: '10px' }} />
                         </NavLink>
+                        {// eslint-disable-next-line
                         <a>
                           <Icon name='heart' style={{ paddingRight: '10px' }} />
                         </a>
-                        <a>
+                        }
+                        <NavLink to={`/user/${user.id}?tab=messages`}>
                           <Icon name='mail' />
-                        </a>
+                        </NavLink>
                       </Icon.Group>
                     </Card.Content>
                   </Card>

@@ -1,8 +1,8 @@
 import React from 'react';
 import moment from 'moment';
-import { Segment, List, Image } from 'semantic-ui-react';
+import { Segment, List, Image, Button, Icon } from 'semantic-ui-react';
 
-const UserSidebar = ({ profile }) => {
+const UserSidebar = ({ profile, changeTab }) => {
   let age;
   if (profile.dateOfBirth) {
     const dob = moment.unix(profile.dateOfBirth.seconds);
@@ -40,6 +40,14 @@ const UserSidebar = ({ profile }) => {
           <List.Header>{moment.unix(profile.createdAt.seconds).format('MM-DD-YYYY')}</List.Header>
         </List.Item>
       </List>
+      <Button color='red' fluid>
+        <Icon name='heart' />
+        Like
+      </Button>
+      <Button color='blue' fluid onClick={(e, data) => changeTab(e, {name: 'messages'})}>
+        <Icon name='mail' />
+        Message
+      </Button>
 
     </Segment>
   );
