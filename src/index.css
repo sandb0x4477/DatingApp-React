@@ -46,3 +46,24 @@ body {
 .ui.menu:not(.vertical) .item > .button {
   margin-left: 0.5em;
 }
+
+/* Messages.jsx */
+.message__own {
+  border-left: 2px solid orange;
+  padding-left: 8px;
+}
+
+.messages {
+  height: 37vh;
+  overflow-y: scroll;
+}
+
+
+.ui.comments {
+    margin: 1.5em 0;
+    max-width: 100%;
+}
+
+.ui.comments .comment .author {
+  display: inline-block;
+}
