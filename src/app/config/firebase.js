@@ -8,12 +8,12 @@ import 'firebase/database';
 // import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAIJ00C9WTqddj45U8Ra6ebapoSjlFXlXM',
-  authDomain: 'dating-react.firebaseapp.com',
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
   databaseURL: 'https://dating-react.firebaseio.com',
   projectId: 'dating-react',
   storageBucket: 'dating-react.appspot.com',
-  messagingSenderId: '632510171034',
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
 };
 
 firebase.initializeApp(firebaseConfig);

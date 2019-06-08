@@ -44,16 +44,18 @@ class NavBar extends Component {
             Dating
           </Menu.Item>
 
-          <Menu.Item  as={Link} to='/matches'>Matches</Menu.Item>
-          <Menu.Item  as={Link} to='/test'>Test</Menu.Item>
-          <Menu.Item>Messages</Menu.Item>
 
           {/*<Menu.Item position='right'>*/}
             {/*<Button content='Sign In' floated='right' color='green'/>*/}
             {/*<Button content='Sign Up' floated='right' color='orange'/>*/}
           {/*</Menu.Item>*/}
           {authenticated ? (
+            <>
+            <Menu.Item  as={Link} to='/matches'>Matches</Menu.Item>
+            <Menu.Item  as={Link} to='/test'>Test</Menu.Item>
+            <Menu.Item>Messages</Menu.Item>
             <SignInLinks auth={auth} profile={profile} signOut={this.handleSignOut} />
+            </>
           ) : (
             <SignOutLinks
               signIn={this.handleSignIn}
