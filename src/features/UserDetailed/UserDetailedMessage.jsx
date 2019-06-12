@@ -31,7 +31,7 @@ const actions = {
   sendMessage
 };
 
-export class UserDetailedMessage extends Component {
+class UserDetailedMessage extends Component {
   state = {
     message: ''
   };
